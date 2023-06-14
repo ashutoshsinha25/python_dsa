@@ -8,6 +8,8 @@ def power(x, n):
     return x * out
 
 
+
+
 if __name__ == '__main__':
     x , n = map(int , input("enter two numers in form of x n: ").split())
     val = power(x , n)
