@@ -28,9 +28,9 @@ This repository is open to contributions from the community. If you have a new p
 # Learning Resources
 If you are new to data structures and algorithms or need a refresher, here are some recommended resources to supplement your learning:
 
-"Data Structures and Algorithms in Python" by Michael T. Goodrich, Roberto Tamassia, and Michael H. Goldwasser
-"Python Algorithms: Mastering Basic Algorithms in the Python Language" by Magnus Lie Hetland
-Online platforms like LeetCode, HackerRank, and CodeSignal offer a wide range of practice problems with solutions.
+* "Data Structures and Algorithms in Python" by Michael T. Goodrich, Roberto Tamassia, and Michael H. Goldwasser
+* "Python Algorithms: Mastering Basic Algorithms in the Python Language" by Magnus Lie Hetland
+* Online platforms like LeetCode, HackerRank, and CodeSignal offer a wide range of practice problems with solutions.
 
 
 Happy coding!
