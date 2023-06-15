@@ -9,7 +9,13 @@ def sumArr(a):
     return a[0] + rans
 
 
+def sumArr2(a , idx):
+    if idx == len(a):
+        return 0
+    rans = sumArr2(a, idx+1)
+    return a[idx] + rans
+
 if __name__=='__main__':
     a = [int(x) for x in input('enter the values : ').split()]
-    val = sumArr(a)
+    val = sumArr2(a , 0)
     print(val)

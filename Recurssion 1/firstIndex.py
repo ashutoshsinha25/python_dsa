@@ -14,8 +14,19 @@ def first(a,x):
         else:
             return -1
 
+
+def first2(a, x, idx):
+    if idx == len(a):
+        return -1
+    if a[idx] == x:
+        return idx
+    rans = first2(a, x, idx+1)
+    return rans
+
+
+
 if __name__ == '__main__':
     a = [int(x) for x in input().split()]
     x = int(input())
-    val = first(a ,x)
+    val = first2(a ,x ,0)
     print(val)

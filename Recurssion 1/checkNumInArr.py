@@ -24,8 +24,19 @@ def checkNum2(a,x):
         return True
     return checkNum2(a[1:] , x)
 
+def checkNum3(a,x,idx):
+    if idx == len(a):
+        # if a[idx] == x:
+        #     return True
+        # else:
+        return False
+    if a[idx] == x:
+        return True
+    return checkNum3(a , x , idx+1)
+
+
 
 if __name__ == '__main__':
     a = [int(x) for x in input('enter the values for array :').split()]
     x = int(input('enter the value x :'))
-    print(checkNum2(a , x))
+    print(checkNum3(a , x , 0))
