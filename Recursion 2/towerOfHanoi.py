@@ -10,4 +10,6 @@ def tower(n , a, b, c):
 
 
 if __name__ == '__main__':
-    tower(3 , 'source' , 'helper' , 'destination')
+    # tower(3 , 'source' , 'helper' , 'destination')
+    x = 55 / 11
+    print(x)
