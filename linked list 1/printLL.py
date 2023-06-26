@@ -23,7 +23,7 @@ def printLL(head):
     while head is not None:
         print(head.data , '->' , end = ' ')
         head = head.next
-    print(-1)
+    print('None')
 
 
 if __name__ == '__main__':
