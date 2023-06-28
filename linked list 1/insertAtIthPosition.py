@@ -54,10 +54,31 @@ def insertAtI(head , i , data):
     return head
 
 
+
+def insertAtI2(head , i ,data):
+    prev = None 
+    curr = head
+    if i < 0 or i > lengthLL(head):
+        return head
+    count = 0
+    while count < i:
+        prev = curr 
+        curr = curr.next 
+        count+=1
+    newNode = Node(data)
+    if prev is not None:
+        prev.next = newNode 
+    else:
+        head = newNode 
+    newNode.next = curr 
+    return head 
+
+    
+
 if __name__ == '__main__':
     head = takeInput() 
     i = int(input('enter the position : '))
     data =  int(input('enter the new data :'))
     printLL(head)
-    head = insertAtI(head , i , data)
+    head = insertAtI2(head , i , data)
     printLL(head)
