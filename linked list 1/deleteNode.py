@@ -76,4 +76,3 @@ if __name__ == '__main__':
     printLL(head)
     head = deleteNode(head , pos)
     printLL(head)
-
