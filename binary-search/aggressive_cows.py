@@ -33,3 +33,8 @@ if __name__ == '__main__':
     k = int(input("Enter the number of cows: "))
     A = list(map(int, input("Enter the stalls value: ").split()))
     print(aggressive_cows(A,k))
+
+
+
+
+
