@@ -1,13 +1,11 @@
 def palindrome(s):
     si , ei = 0 , len(s)-1 
-
     while(si <= ei):
         if s[si] == s[ei]:
             si+=1
             ei-=1
         else:
             break 
-    
     return True if si > ei else False 
 
 
