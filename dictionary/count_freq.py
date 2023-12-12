@@ -4,10 +4,12 @@
 def countFreq(arr , que):
     hm = {}
     for ele in arr:
-        if ele in hm:
-            hm[ele] += 1
-        else:
-            hm[ele] = 1
+        # if ele in hm:
+        #     hm[ele] += 1
+        # else:
+        #     hm[ele] = 1
+        hm[ele] = hm.get(ele, 0) + 1 # another way of doing the same thing
+        
     for ele in que:
         if ele in hm:
             print(ele , "-->" , hm[ele])
