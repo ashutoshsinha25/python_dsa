@@ -1,3 +1,5 @@
+# Q. Write a code to change number with any base to a decimal.
+
 def baseToDecimal(x , ib ,b=10):# TC:O(N), SC:O(N) 
     remainders = [] 
     while x!=0 :

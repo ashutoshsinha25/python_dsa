@@ -1,3 +1,5 @@
+# Q. Write a code to convert a decimal number to any base number.
+
 def deciConvert(x , b , ib=10): # TC : O(N), SC : O(N)
     remainders = [] 
     while x != 0:
